@@ -95,4 +95,7 @@ public class Episodio {
                 ", avaliacao=" + avaliacao +
                 ", dataLancamento=" + dataLancamento ;
     }
+
+    public void setSerie(Serie serie) {
+    }
 }
