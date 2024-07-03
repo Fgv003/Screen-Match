@@ -16,6 +16,7 @@ public class Episodio {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
+
     @ManyToOne
     private Serie series;
 
@@ -97,5 +98,9 @@ public class Episodio {
     }
 
     public void setSerie(Serie serie) {
+    }
+
+    public Serie getSerie() {
+        return series;
     }
 }
